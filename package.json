@@ -3,11 +3,11 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://chinhnguyen19897.github.io/test-react/",
+  "homepage": "https://chinhnguyen19897.github.io/test-react",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+"deploy": "gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
