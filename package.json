@@ -6,7 +6,7 @@
   "homepage": "https://chinhnguyen19897.github.io/test-react/",
   "scripts": {
     "dev": "vite",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
